@@ -1,13 +1,13 @@
 # ContextualBandits: Mobile game application
 Lin-UCB contextual bandit algorithm is applied to offline mobile game data to optimize revenue and user experience when testing different game variants.
 
-This repository is a collection of [Jupyter](https://jupyter.org/) notebooks and python files. Notebooks show results obtained and python files contain source code of the algorithm and auxiliar functions to run the notebooks.
+This repository is a collection of [Jupyter](https://jupyter.org/) notebooks and python files. Notebooks show results obtained, and python files contain the algorithm's source code and auxiliary functions to run the notebooks.
 
 ## Python files
 
 > - "linUCB.py" file contains the functions needed to run the Lin-UCB algorithm
-> - "LIN_UCB_Batches.py" file contains the functions needed to implement Lin-UCB with live data.
-> - "Utils_2.py" file contains all the auxiliar functions, such as running the algorithm multiple times, optimizing parameters, or visualizing different types of results. 
+> - "LIN_UCB_Batches.py" file has the functions required to implement Lin-UCB with live data.
+> - "Utils_2.py" file has all the auxiliary functions, such as running the algorithm multiple times, optimizing parameters, or visualizing different types of results. 
 
 Python files are needed to run the notebooks included in the repository.
 
@@ -18,9 +18,13 @@ This folder includes three notebooks that show how the alpha parameter has been 
 > - "D1_Return (2-4).ipynb" notebook shows some results when varying alpha parameter and considering as reward the return after one day.
 
 ## Results folder
-This folder contains 5 notebooks where each of the metrics considered are analyzed for different alphas and number of game variants.
+This folder contains 5 notebooks where the metrics considered are analyzed for days 1, 3, and 7. We compute the best alpha via grid-search and show how the algorithm behaves with that alpha. This analysis is done for the two-game variants and four-game variants dataset.
 
-> - 
+> - "AdRevenue_results.ipynb": Metric related with ad revenue obtained
+> - "IAP_results.ipynb": Metric related with in-game purchases revenue obtained
+> - "NumSessions_results.ipynb": Metric related with number of sessions
+> - "Return_results.ipynb": Metric related with if user has returned to the game or not
+> - "TimePlayed_results.ipynb": Metric related with time user has spend playing
 
 ## Contact  
 
