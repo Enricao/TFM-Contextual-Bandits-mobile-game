@@ -1,1 +1,1 @@
-# TFM---Contextual-Bandits-Mobile-game-application
+# ContextualBandits: Mobile game application
