@@ -12,7 +12,7 @@ This repository is a collection of [Jupyter](https://jupyter.org/) notebooks and
 Python files are needed to run the notebooks included in the repository.
 
 ## Alpha evaluation folder
-This folder includes three notebooks that show how the alpha parameter has been evaluated.
+This folder includes three notebooks that show how the alpha parameter has been evaluated and the consequences it has on the algorithm.
 > - "D1_Ad_revenue (2-4).ipynb" notebook shows some results when varying alpha parameter and considering as reward the ad revenue after one day.
 > - "D1_IAP (2-4).ipynb" notebook shows some results when varying alpha parameter and considering as reward the in-game purchases after one day.
 > - "D1_Return (2-4).ipynb" notebook shows some results when varying alpha parameter and considering as reward the return after one day.
