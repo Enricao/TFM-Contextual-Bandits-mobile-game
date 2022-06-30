@@ -46,7 +46,7 @@ author={Enric Azuara Olivera},
 ```
 @misc{CB_MGA,
 title={Contextual Bandits: Mobile game application},
-url={https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/blob/master/ABrando-MDN-MasterThesis.pdf}
+url={https://github.com/Enricao/TFM-Contextual-Bandits-mobile-game/blob/main/TFM_ContextualBandits_MobileGameApplication.pdf}
 author={Enric Azuara Olivera},
   year={2022}
 }
